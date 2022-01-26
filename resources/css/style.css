@@ -8,7 +8,7 @@ html {
     text-align: center;
 }
 
-div.images, div.container {
+div.images, div.locations {
   flex-wrap: wrap;
   display: flex;
   align-content: center;
