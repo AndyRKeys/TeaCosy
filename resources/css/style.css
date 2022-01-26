@@ -7,3 +7,13 @@ html {
     opacity: 0.9;
     text-align: center;
 }
+
+div.images, div.container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+div.images figure {
+    max-height: 200px;
+    max-width: 300px;
+}
