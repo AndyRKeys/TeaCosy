@@ -11,9 +11,12 @@ html {
 div.images, div.container {
   flex-wrap: wrap;
   display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
-div.images figure {
+div.images figure img {
     max-height: 200px;
     max-width: 300px;
 }
