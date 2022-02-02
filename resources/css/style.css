@@ -12,6 +12,7 @@ html {
     text-align: center;
 }
 
+/*  header and NAV styles*/
 header {
     position: fixed;
     height: 69px;
@@ -47,12 +48,27 @@ nav li a {
     color: seashell; 
 }
 
-
-
+/*  main body */
 main {
     margin-top: 69px;
 }
 
+/*  mission section  */
+#mission {
+    background-image: url(../images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+#mission .box {
+    width: 100%;
+    background-color: black;
+}
+
+/*  featured section*/
 div.images,
 div.locations {
     flex-wrap: wrap;
@@ -66,10 +82,3 @@ div.images figure img {
     max-height: 200px;
     max-width: 300px;
 }
-
-/*
-#mission {
-    background-image: url('./resources/images/img-mission-background.jpg');
-    height: 700px;
-}
-*/
