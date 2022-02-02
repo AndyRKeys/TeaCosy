@@ -1,3 +1,8 @@
+* {
+    border: 1px solid white;
+    margin: 0;
+}
+
 html {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 22px;
@@ -5,6 +10,47 @@ html {
     background-color: black;
     opacity: 0.9;
     text-align: center;
+}
+
+header {
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    border-bottom: seashell 1px solid;
+    background-color: black;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: seashell; 
+}
+
+
+
+main {
+    margin-top: 69px;
 }
 
 div.images,
@@ -21,27 +67,9 @@ div.images figure img {
     max-width: 300px;
 }
 
-header {
-    position: fixed;
-    height: 69px;
-    width: 100%;
-    border-bottom: seashell 1px solid;
-    background-color: black;
-    top: 0;
+/*
+#mission {
+    background-image: url('./resources/images/img-mission-background.jpg');
+    height: 700px;
 }
-
-nav {
-    align-items: right;
-    align-content: right;
-    justify-content: right;
-    flex-direction: row;
-    display: inline-flex;
-}
-
-header img {
-    height: 50px;
-    align-content: left;
-    justify-content: left;
-    align-items: left;
-    vertical-align: middle;
-}
+*/
